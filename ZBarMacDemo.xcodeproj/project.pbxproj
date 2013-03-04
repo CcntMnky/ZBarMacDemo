@@ -49,6 +49,7 @@
 		D73B54DA16E4418A0089B024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D73B54DC16E4418A0089B024 /* ZBarMacDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBarMacDemoTests.h; sourceTree = "<group>"; };
 		D73B54DD16E4418A0089B024 /* ZBarMacDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBarMacDemoTests.m; sourceTree = "<group>"; };
+		D73B54E716E441B10089B024 /* ZBarMacDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ZBarMacDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +115,7 @@
 		D73B54B916E4418A0089B024 /* ZBarMacDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D73B54E716E441B10089B024 /* ZBarMacDemo.entitlements */,
 				D73B54C516E4418A0089B024 /* AppDelegate.h */,
 				D73B54C616E4418A0089B024 /* AppDelegate.m */,
 				D73B54C816E4418A0089B024 /* MainMenu.xib */,
@@ -382,6 +384,7 @@
 		D73B54E216E4418A0089B024 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZBarMacDemo/ZBarMacDemo-Prefix.pch";
@@ -394,6 +397,7 @@
 		D73B54E316E4418A0089B024 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZBarMacDemo/ZBarMacDemo-Prefix.pch";
